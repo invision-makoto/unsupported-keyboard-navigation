@@ -1,15 +1,15 @@
 # IPS Keyboard Navigation
 ## Introduction
-Keyboard Navigation is a third party plugin for the Invision Power Suite that implements various keyboard shortcuts into the front-end.
+Keyboard Navigation is a plugin that adds various keyboard shortcuts to the front end browsing experience.
 
-These keyboard shortcuts allow your members to easily navigate through threads and comments by using their keyboard to quickly cycle between posts and pages.
+These shortcuts allow your members to easily navigate through threads and comments by using their keyboard to quickly cycle between posts and pages.
 
 ## Demo
 Want to try it out? Of course you do! You can check out a demo of the plugin here,
 
 https://www.makoto.io/forum/11-demo-posts/
 
-Pick out any thread and use the following key bindings to navigate through the thread;
+Pick out any thread and use the following key bindings to navigate through it;
 
 ## Key Bindings
 | Key    | Action                        |
@@ -20,7 +20,12 @@ Pick out any thread and use the following key bindings to navigate through the t
 | **L**  | Navigate to the previous page |
 | **R**  | Refrsh the current page       |
 
-All of these key bindings can bechanged or disabled in the plugins settings page.
+All of these key bindings can be changed or disabled at will in the plugins settings page.
+
+## Sponsorship
+This plugin was commissioned and has been publicly sponsored by [iacas](https://community.invisionpower.com/profile/392549-iacas/) from [TheSandTrap.com](http://thesandtrap.com).
+
+Interested in sponsoring your own plugin idea? Contact me via my [providers profile](https://community.invisionpower.com/third-party/providers/makoto-r40/) for more information!
 
 ## License
 This plugin is commercially licensed, one purchase is valid for one installation. If you wish to install this plugin on multiple IPS installations, please do the right thing and support development by purchasing a license for each community!
