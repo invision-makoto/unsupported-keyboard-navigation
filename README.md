@@ -6,6 +6,7 @@ These keyboard shortcuts allow your members to easily navigate through threads a
 
 ## Demo
 Want to try it out? Of course you do! You can check out a demo of the plugin here,
+
 https://www.makoto.io/forum/11-demo-posts/
 
 Pick out any thread and use the following key bindings to navigate through the thread;
@@ -20,3 +21,10 @@ Pick out any thread and use the following key bindings to navigate through the t
 | **R**  | Refrsh the current page       |
 
 All of these key bindings can bechanged or disabled in the plugins settings page.
+
+## License
+This plugin is commercially licensed, one purchase is valid for one installation. If you wish to install this plugin on multiple IPS installations, please do the right thing and support development by purchasing a license for each community!
+
+By purchasing the Keyboard Navigation plugin, you acknowledge that you have read and agree to the following licensing terms:
+
+http://www.binpress.com/license/view/l/d8e3fb62abc52bb637883947101f8aed
