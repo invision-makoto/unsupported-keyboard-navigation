@@ -148,18 +148,21 @@ var pagingKeys = function() {
 			config['keyPrevPage'] = ips.getSetting('kbnav_keyPrevPage');
 			config['keyRefresh'] = ips.getSetting('kbnav_keyRefresh');
 
-			// If CKEditor has not been loaded, don't bind any keys
-			if (!CKEDITOR)
-			{
-				return
-			}
-
 			setupPagingKeys();
 			windowScrollInit();
-			CKEDITOR.on("currentInstance", function(event)
+
+			if (typeof CKEDITOR !== "undefined")
 			{
-				disableHotKeys();
-			});
+				CKEDITOR.on("currentInstance", function(event)
+				{
+					disableHotKeys();
+				});
+			}
+
+			$( document )
+					.on( 'openDialog', function (e, data) {
+						disableHotKeys();
+					})
 		});
 
 		/*$( document ).ready(function() {
