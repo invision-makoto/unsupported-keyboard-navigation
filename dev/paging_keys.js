@@ -57,18 +57,18 @@ HotKey.prototype.sendKey = function(key){
 	this._keyfunc[key] && this._keyfunc[key]()
 }
 HotKey.prototype.add = function(key,func){
-	if(key.constructor == Array){
+	if((typeof key !== "undefined") && (key.constructor == Array)){
 		for(var i=0;i<key.length;i++)
 			this._keyfunc[key[i]] = func;
-	}else{
+	}else if(typeof key !== "undefined"){
 		this._keyfunc[key] = func;
 	}
 }
 HotKey.prototype.remove = function(key){
-	if(key.constructor == Array){
+	if((typeof key !== "undefined") && (key.constructor == Array)){
 		for(var i=0;i<key.length;i++)
 			this._keyfunc[key[i]] = function () {};
-	}else{
+	}else if(typeof key !== "undefined"){
 		this._keyfunc[key] = function () {};
 	}
 }
@@ -248,7 +248,7 @@ var pagingKeys = function() {
 	}
 
 	function disableHotKeys() {
-		if (hot_key) {
+		if (hot_key && (typeof hot_key !== "undefined")) {
 			disable_hot_key = true;
 			hot_key.remove(config.keyNext);
 			hot_key.remove(config.keyPrev);
